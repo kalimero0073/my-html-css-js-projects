@@ -1,0 +1,190 @@
+{
+    "generic": {
+        "languages": {
+            "de": "German",
+            "en": "English",
+            "sr": "Serbian",
+            "ru": "Russian",
+            "it": "Italian",
+            "es": "Spanish"
+        },
+        "general": "General",
+        "experience": "Experience",
+        "education": "Education",
+        "certificates": "Certificates",
+        "technology": "Technology",
+        "favItBooks": "Favourite IT-related books",
+        "hobbies": "Hobbies"
+    },
+    "card": {
+        "name": "Kale S. Lazic, MSc",
+        "place": "4040 Linz",
+        "role": "IT Specialist",
+        "country": "Austria"
+    },
+    "general": {
+        "birthday": "Birthday",
+        "mybd": "5. August 1993",
+        "birthplace": "Birthplace",
+        "linz": "Linz",
+        "nationality": "Nationality",
+        "austria": "Austria"
+    },
+    "experience": {
+        "today": "today,",
+        "kii": {
+            "organization": "@ KI-I Linz",
+            "place": "Linz",
+            "title": "Researcher and developer - full time",
+            "task1": "Research of technologies that foster accessibility",
+            "task2": "Full-stack web development"
+        },
+        "wacker": {
+            "organization": "@ Wacker Neuson Linz GmbH",
+            "place": "Linz - Hörsching",
+            "title": "Master thesis internship - part time",
+            "task1": "Research of decision-making in the industrial context of additive manufacturing",
+            "task2": "Support of an IT-project for streamlining resources in the manufacturing process",
+            "task3": "Practical acquaintance with the kanban methodology"
+        },
+        "jku": {
+            "title": "Tutor - part time",
+            "place": "Linz",
+            "organization": "@ JKU - institute for data and knowledge engineering",
+            "task1": "Homework correction (DB design, PL/SQL, etc.)",
+            "task2": "Support for students"
+        },
+        "lenzing": {
+            "organization": "@ Lenzing AG",
+            "place": "Lenzing",
+            "sap": {
+                "title": "SAP IT consultant - part time",
+                "task1": "SAP FI/CO – ABAP"
+            },
+            "bpm": {
+                "title": "Business process analyst - part time",
+                "task1": "Sharepoint administration",
+                "task2": "Process documentation with BPMN 2.0"
+            }
+        }
+    },
+    "education": {
+        "master": {
+            "title": "Master's program - business informatics",
+            "place": "JKU Linz",
+            "feature1": "Master thesis supervisor: Univ.-Prof. Mag. Dr. Stefan Koch",
+            "feature2": "Interests: information management, data & knowledge engineering, network & security"
+        },
+        "bachelor": {
+            "title": "Bachelor's program - economics",
+            "place": "JKU Linz",
+            "feature1": "Bachelor thesis supervisor: Univ.-Prof. Mag. Dr. Michael Landesmann",
+            "feature2": "Interests: applied economics, founding and development of companies, Russian"
+        },
+        "abroad": {
+            "title": "Semester abroad - economics",
+            "place": "Higher school of economics, Nizhny Novgorod in Russia",
+            "feature1": "Interests: Russian culture, marketing, literature"
+        },
+        "school": {
+            "title": "Business administration",
+            "type": "Trade academy Vöcklabruck",
+            "feature1": "International business branch: marketing, English, Spanish"
+        }
+    },
+    "certificates": {
+        "jira": {
+            "title": "Jira & Confluence server essentials",
+            "issuance": "Issued by Atlassian university - October, 2019"
+        },
+        "sap": {
+            "cert": {
+                "title": "SAP certified application associate",
+                "issuance": "Issued by SAP - October, 2018"
+            },
+            "terp10": {
+                "title": "SAP TERP10 on S/4HANA",
+                "issuance": "Issued by university Duisburg-Essen in Germany - August, 2018"
+            },
+            "abap": {
+                "abap1": {
+                    "title": "SAP ABAP I",
+                    "issuance": "Issued by university Duisburg-Essen in Germany - August, 2018"
+                },
+                "abap2": {
+                    "title": "SAP ABAP II",
+                    "issuance": "Issued by university Duisburg-Essen in Germany - March, 2019"
+                }
+            }
+        }
+    },
+    "technology": {
+        "programming": {
+            "title": "Programming Languages",
+            "java": {
+                "title": "Java",
+                "descr1": "Spring framework",
+                "descr2": "Android prototyping"
+            },
+            "javascript": {
+                "title": "JavaScript",
+                "descr1": "VueJs, Vuetify",
+                "descr2": "JQuery, NodeJS",
+                "descr3": "HTML, CSS"
+            },
+            "php": {
+                "title": "PHP",
+                "descr1": "Headless Drupal CMS"
+            },
+            "abap": {
+                "title": "ABAPs",
+                "descr1": "Financial Report"
+            }
+        },
+        "tools": {
+            "title": "Tools frequently used",
+            "tool1": "Google, KeepNote",
+            "tool2": "Linux, Windows",
+            "tool3": "Git, Github",
+            "tool4": "Maven",
+            "tool5": "Eclipse, VSCode",
+            "tool6": "Postman, XAMPP"
+        },
+        "udemy": {
+            "title": "Udemy courses",
+            "course1": "RESTful web services with Spring",
+            "course2": "PHP MVC framework",
+            "course3": "PHP registration and login system",
+            "course4": "Docker and Kubernetes: The Complete Guide"
+        }
+    },
+    "favItBooks": {
+        "phoenix": {
+            "title": "The phoenix project",
+            "authors": "Gene Kim, Kevin Behr, George Spafford",
+            "descr1": "The three ways",
+            "descr2": "Five disfunctions of a team",
+            "descr3": "DevOps"
+        },
+        "cleanCode": {
+            "title": "Clean code",
+            "authors": "Robert Martin",
+            "descr1": "aaaaaaa",
+            "descr2": "bbbbbbbb",
+            "descr3": "ccccccccc"
+        },
+        "leanStartUp": {
+            "title": "The lean start up",
+            "authors": "Eric Ries",
+            "descr1": "aaaaaaa",
+            "descr2": "bbbbbbbb",
+            "descr3": "ccccccccc"
+        }
+    },
+    "hobby": {
+        "football": "Football",
+        "chess": "Chess (since Covid-19)",
+        "reading": "Reading",
+        "socializing": "Socializing"
+    }
+}

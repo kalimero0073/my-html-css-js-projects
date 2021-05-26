@@ -1,0 +1,184 @@
+{
+  "generic": {
+    "languages": {
+      "de": "Deutsch",
+      "en": "Englisch",
+      "sr": "Serbisch",
+      "ru": "Russisch",
+      "it": "Italienisch",
+      "es": "Spanisch"
+    },
+    "general": "Allgemein",
+    "experience": "Erfahrung",
+    "education": "Bildung",
+    "certificates": "Zertifikate",
+    "technology": "Technologie",
+    "favItBooks": "Favoriten: IT-Bücher",
+    "hobbies": "Hobbies"
+  },
+  "card": {
+    "name": "Kale S. Lazic, MSc",
+    "place": "4040 Linz",
+    "role": "IT Spezialist",
+    "country": "Österreich"
+  },
+  "general": {
+    "birthday": "Geburtstag",
+    "mybd": "5. August 1993",
+    "birthplace": "Geburtsort",
+    "linz": "Linz",
+    "nationality": "Nationalität",
+    "austria": "Österreich"
+  },
+  "experience": {
+    "today": "heute",
+    "kii": {
+      "organization": "@ KI-I Linz",
+      "place": "Linz",
+      "title": "Forscher und Entwickler",
+      "task1": "Erforschung von Technologien, welche die Barrierefreiheit fördern",
+      "task2": "Full-stack Web-Entwickler"
+    },
+    "wacker": {
+      "organization": "@ Wacker Neuson Linz GmbH",
+      "place": "Linz - Hörsching",
+      "title": "Masterarbeit Praktikum - Teilzeit",
+      "task1": "Erforschung der Entscheidungsfindung im industriellen Kontext bzgl. der Verwendung von additiven Herstellungsverfahren",
+      "task2": "Unterstützung eines IT-Projekts zur Optimierung des Ressourcenmanagements im Herstellungsprozess",
+      "task3": "Praktische Bekanntmachung mit der Kanban Methodik"
+    },
+    "jku": {
+      "title": "Tutor - Teilzeit",
+      "place": "Linz",
+      "organization": "@ JKU - Institut für Daten- & Wissensingenieurwesen",
+      "task1": "Korrektur der Hausaufgaben (DB design, PL/SQL, etc.)",
+      "task2": "Unterstützung der Studenten"
+    },
+    "lenzing": {
+      "organization": "@ Lenzing AG",
+      "place": "Lenzing",
+      "sap": {
+        "title": "SAP IT Konsultant - Teilzeit",
+        "task1": "SAP FI/CO - ABAP"
+      },
+      "bpm": {
+        "title": "Geschäftsprozess-Analyst - Teilzeit",
+        "task1": "Sharepoint Administration",
+        "task2": "Prozessdokumentation mittels BPMN 2.0"
+      }
+    }
+  },
+  "education": {
+    "master": {
+      "title": "Masterstudium - Wirtschaftsinformatik",
+      "place": "JKU Linz",
+      "feature1": "Masterarbeitsbetreuer: Univ.-Prof. Mag. Dr. Stefan Koch",
+      "feature2": "Interessen: Informationsmanagement, Daten- & Wissensingenieurwesen, Netzwerke und Sicherheit"
+    },
+    "bachelor": {
+      "title": "Bachelorstudium - Wirtschaftswissenschaften",
+      "place": "JKU Linz",
+      "feature1": "Bachelorarbeitsbetreuer: Univ.-Prof. Mag. Dr. Michael Landesmann",
+      "feature2": "Interessen: Angewandte Ökonomie, Unternehmensgründung- und entwicklung, Russisch"
+    },
+    "abroad": {
+      "title": "Auslandssemester - Wirtschaftswissenschaften",
+      "place": "Höhere wirtschaftliche Schule, Nischni Nowgorod",
+      "feature1": "Interessen: Russische Kultur, Marketing, Literatur"
+    },
+    "school": {
+      "title": "Betriebswirtschaftslehre",
+      "type": "Handelsakademie Vöcklabruck",
+      "feature1": "Internationale Wirtschaftslehre: Marketing, Englisch, Spanisch"
+    }
+  },
+  "certificates": {
+    "jira": {
+      "title": "Jira & Confluence Server Grundlagen",
+      "issuance": "Ausgestellt durch Atlassian Universität - Oktober, 2019"
+    },
+    "sap": {
+      "cert": {
+        "title": "SAP zertifizierter Anwendungspartner",
+        "issuance": "Ausgestellt durch SAP - Oktober, 2018"
+      },
+      "terp10": {
+        "title": "SAP TERP10 auf S/4Hana",
+        "issuance": "Ausgestellt durch Universität Duisburg-Essen in Deutschland - August, 2018"
+      },
+      "abap": {
+        "abap1": {
+          "title": "SAP ABAP I",
+          "issuance": "Ausgestellt durch Universität Duisburg-Essen in Deutschland - August, 2018"
+        },
+        "abap2": {
+          "title": "SAP ABAP II",
+          "issuance": "Ausgestellt durch Universität Duisburg-Essen in Deutschland - März, 2019"
+        }
+      }
+    }
+  },
+  "technology": {
+    "programming": {
+      "title": "Programmiersprachen",
+      "java": {
+        "title": "Java",
+        "descr1": "Spring framework",
+        "descr2": "Android Prototypen"
+      },
+      "javascript": {
+        "title": "JavaScript",
+        "descr1": "VueJs, Vuetify",
+        "descr2": "JQuery, NodeJS",
+        "descr3": "HTML, CSS"
+      },
+      "php": {
+        "title": "PHP",
+        "descr1": "Headless Drupal CMS"
+      },
+      "abap": {
+        "title": "ABAP",
+        "descr1": "Finanzieller Bericht"
+      }
+    },
+    "tools": {
+      "title": "Häufig verwendete Werkzeuge",
+      "tool1": "Google, KeepNote",
+      "tool2": "Linux, Windows",
+      "tool3": "Git, Github",
+      "tool4": "Maven",
+      "tool5": "Eclipse, VSCode",
+      "tool6": "Postman, XAMPP"
+    },
+    "udemy": {
+      "title": "Udemy Kurse",
+      "course1": "RESTful Web Services mit Spring",
+      "course2": "PHP MVC framework",
+      "course3": "PHP Registrierungs- und Login System",
+      "course4": "Docker und Kubernetes: Die komplette Tour"
+    }
+  },
+  "favItBooks": {
+    "phoenix": {
+      "title": "Das Phoenix Projekt",
+      "authors": "Gene Kim, Kevin Behr, George Spafford",
+      "descr1": "Die drei Wege",
+      "descr2": "Fünf Dysfunktionen eines Teams",
+      "descr3": "DevOps"
+    },
+    "cleanCode": {
+      "title": "Sauberer Code",
+      "authors": "Robert Martin"
+    },
+    "leanStartUp": {
+      "title": "The Lean Start Upp",
+      "authors": "Eric Ries"
+    }
+  },
+  "hobby": {
+    "football": "Fußball",
+    "chess": "Schach (seit Covid-19)",
+    "reading": "Lesen",
+    "socializing": "Sozialisieren"
+  }
+}

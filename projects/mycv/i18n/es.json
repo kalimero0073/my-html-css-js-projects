@@ -1,0 +1,190 @@
+{
+  "generic": {
+    "languages": {
+      "de": "alemán",
+      "en": "inglés",
+      "sr": "serbio",
+      "ru": "ruso",
+      "it": "italiano",
+      "es": "español"
+    },
+    "general": "General",
+    "experience": "Experiencia",
+    "education": "Educación",
+    "certificates": "Certificados",
+    "technology": "Tecnología",
+    "favItBooks": "Libros favoritos relacionados con TI",
+    "hobbies": "Aficiones"
+  },
+  "card": {
+    "name": "Kale S. Lazic, MSc",
+    "place": "4040 Linz",
+    "role": "Especialista en TI",
+    "country": "Austria"
+  },
+  "general": {
+    "birthday": "Cumpleaños",
+    "mybd": "5. Agosto de 1993",
+    "birthplace": "Lugar de nacimiento",
+    "linz": "Linz",
+    "nationality": "Nacionalidad",
+    "austria": "Austria"
+  },
+  "experience": {
+    "today": "hoy dia,",
+    "kii": {
+      "organization": "@ KI-I Linz",
+      "place": "Linz",
+      "title": "Investigador y desarrollador - a tiempo completo",
+      "task1": "Investigación de tecnologías que favorezcan la accesibilidad",
+      "task2": "Desarrollo web full-stack"
+    },
+    "wacker": {
+      "organization": "@ Wacker Neuson Linz GmbH",
+      "place": "Linz - Hörsching",
+      "title": "Pasantía de tesis de maestría - tiempo parcial",
+      "task1": "Investigación de la toma de decisiones en el contexto industrial de la fabricación aditiva",
+      "task2": "Soporte de un proyecto de TI para agilizar los recursos en el proceso de fabricación",
+      "task3": "Conocimiento práctico de la metodología kanban."
+    },
+    "jku": {
+      "title": "Tutor - tiempo parcial",
+      "place": "Linz",
+      "organization": "@ JKU - instituto de ingeniería de datos y conocimiento",
+      "task1": "Corrección de tareas (diseño de base de datos, PL / SQL, etc.)",
+      "task2": "Apoyo a los estudiantes"
+    },
+    "lenzing": {
+      "organization": "@ Lenzing AG",
+      "place": "Lenzing",
+      "sap": {
+        "title": "Consultor de TI de SAP - tiempo parcial",
+        "task1": "SAP FI / CO - ABAP"
+      },
+      "bpm": {
+        "title": "Analista de procesos de negocio - tiempo parcial",
+        "task1": "Administración de Sharepoint",
+        "task2": "Documentación de procesos con BPMN 2.0"
+      }
+    }
+  },
+  "education": {
+    "master": {
+      "title": "Programa de maestría - informática empresarial",
+      "place": "JKU Linz",
+      "feature1": "Directora de tesis de maestría: Univ.-Prof. revista Dr. Stefan Koch",
+      "feature2": "Intereses: gestión de la información, ingeniería de datos y conocimientos, redes y seguridad"
+    },
+    "bachelor": {
+      "title": "Programa de licenciatura - economía",
+      "place": "JKU Linz",
+      "feature1": "Directora de tesis de licenciatura: Univ.-Prof. revista Dr. Michael Landesmann",
+      "feature2": "Intereses: economía aplicada, fundación y desarrollo de empresas, ruso"
+    },
+    "abroad": {
+      "title": "Semestre en el extranjero - economía",
+      "place": "Escuela superior de economía, Nizhny Novgorod en Rusia",
+      "feature1": "Intereses: cultura rusa, marketing, literatura."
+    },
+    "school": {
+      "title": "Administracion de Negocios",
+      "type": "Academia de comercio Vöcklabruck",
+      "feature1": "Rama de negocios internacionales: marketing, inglés, español"
+    }
+  },
+  "certificates": {
+    "jira": {
+      "title": "Conceptos básicos del servidor Jira y Confluence",
+      "issuance": "Emitido por la Universidad de Atlassian - Octubre de 2019"
+    },
+    "sap": {
+      "cert": {
+        "title": "Asociado de aplicaciones certificado por SAP",
+        "issuance": "Emitido por SAP - Octubre de 2018"
+      },
+      "terp10": {
+        "title": "SAP TERP10 en S / 4HANA",
+        "issuance": "Emitido por la universidad Duisburg-Essen en Alemania - agosto de 2018"
+      },
+      "abap": {
+        "abap1": {
+          "title": "SAP ABAP I",
+          "issuance": "Emitido por la universidad Duisburg-Essen en Alemania - agosto de 2018"
+        },
+        "abap2": {
+          "title": "SAP ABAP II",
+          "issuance": "Emitido por la universidad Duisburg-Essen en Alemania - marzo de 2019"
+        }
+      }
+    }
+  },
+  "technology": {
+    "programming": {
+      "title": "Lenguajes de programación",
+      "java": {
+        "title": "Java",
+        "descr1": "Marco de primavera",
+        "descr2": "Prototipos de Android"
+      },
+      "javascript": {
+        "title": "JavaScript",
+        "descr1": "VueJs, Vuetify",
+        "descr2": "JQuery, NodeJS",
+        "descr3": "HTML, CSS"
+      },
+      "php": {
+        "title": "PHP",
+        "descr1": "CMS Drupal sin cabeza"
+      },
+      "abap": {
+        "title": "ABAP",
+        "descr1": "Informe financiero"
+      }
+    },
+    "tools": {
+      "title": "Herramientas de uso frecuente",
+      "tool1": "Google, KeepNote",
+      "tool2": "Linux, Windows",
+      "tool3": "Git, Github",
+      "tool4": "Maven",
+      "tool5": "Eclipse, VSCode",
+      "tool6": "Postman, XAMPP"
+    },
+    "udemy": {
+      "title": "Cursos de Udemy",
+      "course1": "Servicios web RESTful con Spring",
+      "course2": "Marco PHP MVC",
+      "course3": "Sistema de registro e inicio de sesión PHP",
+      "course4": "Docker y Kubernetes: la guía completa"
+    }
+  },
+  "favItBooks": {
+    "phoenix": {
+      "title": "El proyecto phoenix",
+      "authors": "Gene Kim, Kevin Behr y George Spafford",
+      "descr1": "Las tres formas",
+      "descr2": "Cinco disfunciones de un equipo",
+      "descr3": "DevOps"
+    },
+    "cleanCode": {
+      "title": "Código limpio",
+      "authors": "Robert Martin",
+      "descr1": "aaaaaaa",
+      "descr2": "bbbbbbbb",
+      "descr3": "ccccccccc"
+    },
+    "leanStartUp": {
+      "title": "La puesta en marcha ajustada",
+      "authors": "Eric Ries",
+      "descr1": "aaaaaaa",
+      "descr2": "bbbbbbbb",
+      "descr3": "ccccccccc"
+    }
+  },
+  "hobby": {
+    "football": "Fútbol",
+    "chess": "Ajedrez (desde Covid-19)",
+    "reading": "Leyendo",
+    "socializing": "Socializar"
+  }
+}

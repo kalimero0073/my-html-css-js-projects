@@ -1,0 +1,190 @@
+{
+  "generic": {
+    "languages": {
+      "de": "Tedesco",
+      "en": "inglese",
+      "sr": "serbo",
+      "ru": "russo",
+      "it": "italiano",
+      "es": "spagnolo"
+    },
+    "general": "Generale",
+    "experience": "Esperienza",
+    "education": "Formazione scolastica",
+    "certificates": "Certificati",
+    "technology": "Tecnologia",
+    "favItBooks": "Libri preferiti relativi all'IT",
+    "hobbies": "Hobby"
+  },
+  "card": {
+    "name": "Kale S. Lazic, MSc",
+    "place": "4040 Linz",
+    "role": "Esperto di tecnologia informatica",
+    "country": "Austria"
+  },
+  "general": {
+    "birthday": "Compleanno",
+    "mybd": "5. Agosto 1993",
+    "birthplace": "Luogo di nascita",
+    "linz": "Linz",
+    "nationality": "Nazionalità",
+    "austria": "Austria"
+  },
+  "experience": {
+    "today": "oggi,",
+    "kii": {
+      "organization": "@ KI-I Linz",
+      "place": "Linz",
+      "title": "Ricercatore e sviluppatore - a tempo pieno",
+      "task1": "Ricerca di tecnologie che favoriscano l'accessibilità",
+      "task2": "Sviluppo web full-stack"
+    },
+    "wacker": {
+      "organization": "@ Wacker Neuson Linz GmbH",
+      "place": "Linz - Hörsching",
+      "title": "Tirocinio per tesi di laurea magistrale - part time",
+      "task1": "Ricerca del processo decisionale nel contesto industriale della manifattura additiva",
+      "task2": "Supporto di un progetto IT per la razionalizzazione delle risorse nel processo di produzione",
+      "task3": "Conoscenza pratica della metodologia kanban"
+    },
+    "jku": {
+      "title": "Tutor - part time",
+      "place": "Linz",
+      "organization": "@ JKU - istituto di ingegneria dei dati e della conoscenza",
+      "task1": "Correzione dei compiti a casa (progettazione DB, PL / SQL, ecc.)",
+      "task2": "Supporto per gli studenti"
+    },
+    "lenzing": {
+      "organization": "@ Lenzing AG",
+      "place": "Lenzing",
+      "sap": {
+        "title": "Consulente IT SAP - part time",
+        "task1": "SAP FI / CO - ABAP"
+      },
+      "bpm": {
+        "title": "Analista dei processi aziendali - part time",
+        "task1": "Amministrazione di Sharepoint",
+        "task2": "Documentazione del processo con BPMN 2.0"
+      }
+    }
+  },
+  "education": {
+    "master": {
+      "title": "Programma di Master - informatica aziendale",
+      "place": "JKU Linz",
+      "feature1": "Relatore tesi di laurea: Univ.-Prof. Mag. Dr. Stefan Koch",
+      "feature2": "Interessi: gestione delle informazioni, ingegneria dei dati e della conoscenza, rete e sicurezza"
+    },
+    "bachelor": {
+      "title": "Corso di laurea - economia",
+      "place": "JKU Linz",
+      "feature1": "Relatore tesi di laurea: Univ.-Prof. Mag. Dr. Michael Landesmann",
+      "feature2": "Interessi: economia applicata, fondazione e sviluppo di società, russo"
+    },
+    "abroad": {
+      "title": "Semestre all'estero - economia",
+      "place": "Scuola superiore di economia, Nizhny Novgorod in Russia",
+      "feature1": "Interessi: cultura russa, marketing, letteratura"
+    },
+    "school": {
+      "title": "Amministrazione aziendale",
+      "type": "Accademia di commercio Vöcklabruck",
+      "feature1": "Settore commerciale internazionale: marketing, inglese, spagnolo"
+    }
+  },
+  "certificates": {
+    "jira": {
+      "title": "Elementi essenziali del server Jira e Confluence",
+      "issuance": "Rilasciato dall'università Atlassian - ottobre 2019"
+    },
+    "sap": {
+      "cert": {
+        "title": "Associato applicativo certificato SAP",
+        "issuance": "Rilasciato da SAP - ottobre 2018"
+      },
+      "terp10": {
+        "title": "SAP TERP10 su S / 4HANA",
+        "issuance": "Rilasciato dall'università Duisburg-Essen in Germania - agosto 2018"
+      },
+      "abap": {
+        "abap1": {
+          "title": "SAP ABAP I",
+          "issuance": "Rilasciato dall'università Duisburg-Essen in Germania - agosto 2018"
+        },
+        "abap2": {
+          "title": "SAP ABAP II",
+          "issuance": "Rilasciato dall'università Duisburg-Essen in Germania - marzo 2019"
+        }
+      }
+    }
+  },
+  "technology": {
+    "programming": {
+      "title": "Linguaggi di programmazione",
+      "java": {
+        "title": "Giava",
+        "descr1": "Quadro di primavera",
+        "descr2": "Prototipazione Android"
+      },
+      "javascript": {
+        "title": "JavaScript",
+        "descr1": "VueJs, Vuetify",
+        "descr2": "JQuery, NodeJS",
+        "descr3": "HTML, CSS"
+      },
+      "php": {
+        "title": "PHP",
+        "descr1": "CMS Drupal senza testa"
+      },
+      "abap": {
+        "title": "ABAP",
+        "descr1": "Rapporto finanziario"
+      }
+    },
+    "tools": {
+      "title": "Strumenti utilizzati di frequente",
+      "tool1": "Google, KeepNote",
+      "tool2": "Linux, Windows",
+      "tool3": "Git, Github",
+      "tool4": "Esperto di",
+      "tool5": "Eclipse, VSCode",
+      "tool6": "Postman, XAMPP"
+    },
+    "udemy": {
+      "title": "Corsi Udemy",
+      "course1": "Servizi web RESTful con Spring",
+      "course2": "Framework PHP MVC",
+      "course3": "Registrazione PHP e sistema di accesso",
+      "course4": "Docker e Kubernetes: la guida completa"
+    }
+  },
+  "favItBooks": {
+    "phoenix": {
+      "title": "Il progetto Phoenix",
+      "authors": "Gene Kim, Kevin Behr, George Spafford",
+      "descr1": "I tre modi",
+      "descr2": "Cinque disfunzioni di una squadra",
+      "descr3": "DevOps"
+    },
+    "cleanCode": {
+      "title": "Codice pulito",
+      "authors": "Robert Martin",
+      "descr1": "aaaaaaa",
+      "descr2": "bbbbbbbb",
+      "descr3": "ccccccccc"
+    },
+    "leanStartUp": {
+      "title": "La magra si avvia",
+      "authors": "Eric Ries",
+      "descr1": "aaaaaaa",
+      "descr2": "bbbbbbbb",
+      "descr3": "ccccccccc"
+    }
+  },
+  "hobby": {
+    "football": "Calcio",
+    "chess": "Scacchi (dal Covid-19)",
+    "reading": "Lettura",
+    "socializing": "Socializzare"
+  }
+}

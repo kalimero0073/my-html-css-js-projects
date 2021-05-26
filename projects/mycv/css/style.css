@@ -1,0 +1,279 @@
+/* entire document styling */
+* {
+    font-family: 'PT Serif', serif;
+    font-size: 100%;
+    margin: 0;
+}
+
+body {
+   margin: auto;
+   max-width: 900px;
+   margin-bottom: 5em;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+h1 {
+    font-size: 2em; /* 1em = 100% font-size - default 16px */
+    opacity: 0.8;
+}
+
+h2 {
+    font-size: 1.5em;
+    opacity: 0.8;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #421f12;
+}
+
+h3, h4 {
+    opacity: 0.8;
+}
+
+.section-title {
+    color: #583930;
+    min-width: 140px;
+}
+
+.section-title::after {
+    content: "";
+    display: block;
+    width: 32px;
+    padding-top: 3px;
+    border-bottom: 2px solid #7c5043; 
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* header element styling */
+header {
+    margin-top: 2em;
+    background: #f3e1cb81;
+    border-radius: 25px;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-self: center;
+}
+
+header #business-card {
+    color: #1d1716;
+    margin: 1.5em 0 1.5em 2em;
+}
+
+header #business-card h1 {
+    margin-bottom: 0.5em;
+}
+
+header #business-card h2 {
+    margin-bottom: 0.5em;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0 0 0 0.5em;
+    padding: 0;
+}
+
+header #my-picture {
+    width: 12em;
+    margin-right: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+header #my-picture img {
+    border-radius: 25px;
+    align-self: center;
+    margin-left: 2em;
+}
+
+header #hello-picture {
+    display: flex;
+    justify-content: end;
+}
+
+header #hello-picture img {
+    align-self: flex-end;
+    padding: 0 0 0 1em;
+    margin: 0 0 3em 1em;
+    transform: rotate(320deg);
+}
+
+header ul img {
+    vertical-align: middle; 
+}
+
+
+/* section elements styling */
+body > section {
+    margin-top: 2em;
+}
+
+section {
+    display: flex;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.2em;
+}
+
+section div section {
+    display: flex;
+    flex-direction: column;
+}
+
+section h2 {
+    align-self: flex-start; 
+    margin: 0 0 0 1em;
+    width: 6em;
+    margin-right: 2em;
+}
+
+.card {
+    margin-top: 2em;
+}
+
+section .card:first-child {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: circle;
+    opacity: 0.9;
+}
+
+/* personal-information */
+#personal-information table {
+    width: 20em;
+}
+
+td:first-child {
+    font-weight: bold;
+    opacity: 0.8;    
+}
+
+/* experience */
+#experience .duration-place {
+    display: flex;
+    flex-direction: row;
+}
+
+#experience .duration-place p {
+    margin-left: 0.3em;
+}
+
+#experience p:first-child {
+    margin-left: 0;
+}
+
+/* technologies */
+.tools-card .lang_progress {
+    /* display: flex; */
+}
+
+/*/* technologies-progressbar https://css-tricks.com/css3-progress-bars/ */
+.lang_progress {
+    flex-direction: row;
+    margin-bottom: 0.5em;
+}
+
+.lang_progress h4 {
+    width: 25%;
+}
+
+.meter { 
+    height: 0.45em;
+    width: 70%;
+    align-self: center;
+    position: relative;
+    background: #555;
+    border-radius: 1.25em;
+    box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+}
+
+.meter > span {
+    display: block;
+    height: 100%;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: rgb(40, 168, 74);
+    box-shadow: 
+      inset 0 2px 9px  rgba(255,255,255,0.3),
+      inset 0 -2px 6px rgba(0,0,0,0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.orange > span {
+    background-color: #f1a165;
+    background-image: linear-gradient(to bottom, #f1a165, #7e3e27);
+}
+
+
+
+/* hobby */
+#hobby ul {
+    list-style-type: none;
+    margin: 0.5em 0 0 0.5em;
+    padding: 0;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+
+/* language-picker */
+.dropbtn {
+    padding: 16px;
+    background-color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    margin-right: 20px;
+    float: right;
+  }
+  
+  .dropdown-content {
+    display: none;
+    margin: 0;
+    right: 0;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content li:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown:hover .dropbtn {
+    color: #f1f1f1;
+    background-color: #f1f1f1;
+  }

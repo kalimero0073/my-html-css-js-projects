@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Kale">
+    <meta name="description" content="This is the resume of Kale, graduate of business informatics from the JKU in Linz">
+    <title>CV of Kale S. Lazic</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" media="print" href="./css/print.css">
+    <script src="./js/lib/jquery-3.5.1.min.js"></script>
+    <script src="./js/lib/mustache.min.js"></script>
+    <script src="./js/app.js"></script>
+</head>
+<!-- https://www.w3schools.com/html/html5_semantic_elements.asp -->
+
+<body>
+    <nav>
+        
+        <div class="dropdown">
+            <button class="dropbtn selected-lang" onkeyup="languageKeyUp(event, this)" data-i18n="generic.lang">
+                <img width="24" height="24" src="./img/translate_36_black.png">
+            </button>
+            <ul class="dropdown-content">
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <picture id="my-picture">
+            <img src="./img/kaleFoto3.jpg" height="200">
+        </picture>
+        <div id="business-card">
+            <h1 data-i18n="card.name">Kale S. Lazic, MSc</h1>
+            <h2 data-i18n="card.role">IT Specialist</h2>
+            <ul>
+                <li data-i18n="card.place">4040 Linz</li>
+                <li data-i18n="card.country">Austria</li>
+            </ul>
+            <ul class="contact-data">
+                <li>
+                    <img width="15" height="15" src="./img/phone.png">
+                    <a href="tel:004369915054207">+43 699 150 54 207</a>
+                </li>
+                <li>
+                    <img width="15" height="15" src="./img/email.png">
+                    <a href="mailto:kale_it@gmail.com">kale_it@gmail.com</a>
+                </li>
+            </ul>
+        </div>
+        <picture id="hello-picture">
+            <!-- https://onlinetexttools.com/convert-text-to-image -->
+            <img src="./img/hello.png" height="90">
+        </picture>
+    </header>
+
+    <section id="personal-information">
+        <h2 class="section-title" data-i18n="generic.general">General</h2>
+        <div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td data-i18n="general.birthday">Birthday</td>
+                        <td data-i18n="general.mybd">5. August 1993</td>
+                    </tr>
+                    <tr>
+                        <td data-i18n="general.birthplace">Birthplace</td>
+                        <td data-i18n="general.linz">Linz</td>
+                    </tr>
+                    <tr>
+                        <td data-i18n="general.nationality">Nationality</td>
+                        <td data-i18n="general.austria">Austria</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2 class="section-title" data-i18n="generic.experience">Experience</h2>
+        <div>
+            <section class="experience-card card">
+                <div>
+                    <h3 data-i18n="experience.kii.title">Researcher and developer - full time</h3>
+                    <h4 data-i18n="experience.kii.organization">@ KI-I Linz</h4>
+                </div>
+                <div class="duration-place">
+                    <p>01.2020 -</p>
+                    <p data-i18n="experience.today">today,</p>
+                    <p data-i18n="experience.kii.place">Linz</p>
+                </div>
+                <ul>
+                    <li data-i18n="experience.kii.task1">Research of technologies that foster accessibility</li>
+                    <li data-i18n="experience.kii.task2">Full-stack web development</li>
+                </ul>
+            </section>
+            <section class="experience-card card">
+                <div>
+                    <h3 data-i18n="experience.wacker.title">Master thesis internship - part time</h3>
+                    <h4 data-i18n="experience.wacker.organization">@ Wacker Neuson Linz GmbH</h4>
+                </div>
+                <div class="duration-place">
+                    <p>09.2019 - 12.2019,</p>
+                    <p data-i18n="experience.wacker.place">Linz - Hörsching</p>
+                </div>
+                <ul>
+                    <li data-i18n="experience.wacker.task1">Research of decision-making in the industrial context of additive manufacturing</li>
+                    <li data-i18n="experience.wacker.task2">Support of an IT-project for streamlining resources in the manufacturing process</li>
+                    <li data-i18n="experience.wacker.task3">Practical acquaintance with the kanban methodology</li>
+                </ul>
+            </section>
+            <section class="experience-card card">
+                <div>
+                    <h3 data-i18n="experience.jku.title">Tutor - part time</h3>
+                    <h4 data-i18n="experience.jku.organization">@ JKU - institute for data and knowledge engineering</h4>
+                </div>
+                <div class="duration-place">
+                    <p>10.2018 - 06.2019,</p>
+                    <p data-i18n="experience.jku.place">Linz</p>
+                </div>
+                <ul>
+                    <li data-i18n="experience.jku.task1">Homework correction (DB design, PL/SQL, etc.)</li>
+                    <li data-i18n="experience.jku.task2">Support for students</li>
+                </ul>
+            </section>
+            <section class="experience-card card">
+                <div>
+                    <h3 data-i18n="experience.lenzing.sap.title">SAP IT consultant - part time</h3>
+                    <h4 data-i18n="experience.lenzing.organization">@ Lenzing AG</h4>
+                </div>
+                <div class="duration-place">
+                    <p>09.2018 - 02.2019,</p>
+                    <p data-i18n="experience.lenzing.place">Lenzing</p>
+                </div>
+                <ul>
+                    <li data-i18n="experience.lenzing.sap.task1">SAP FI/CO – ABAP</li>
+                </ul>
+            </section>
+            <section class="experience-card card">
+                <div>
+                    <h3 data-i18n="experience.lenzing.bpm.title">Business process analyst - part time</h3>
+                    <h4 data-i18n="experience.lenzing.organization">@ Lenzing AG</h4>
+                </div>
+                <div class="duration-place">
+                    <p>07.2017 - 07.2018,</p>
+                    <p data-i18n="experience.lenzing.place">Lenzing</p>
+                </div>
+                <ul>
+                    <li data-i18n="experience.lenzing.bpm.task1">Sharepoint administration</li>
+                    <li data-i18n="experience.lenzing.bpm.task2">Process documentation with BPMN 2.0</li>
+                </ul>
+            </section>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2 class="section-title" data-i18n="generic.education">Education</h2>
+        <div>
+            <section class="education-card card">
+                <div>
+                    <h3 data-i18n="education.master.title">Master's program - business informatics</h3>
+                    <h4 data-i18n="education.master.place">JKU Linz</h4>
+                    <p>10.2016 - 12.2019</p>
+                </div>
+                <ul>
+                    <li data-i18n="education.master.feature1">Master thesis supervisor: Univ.-Prof. Mag. Dr. Stefan Koch</li>
+                    <li data-i18n="education.master.feature2">Interests: information management, data & knowledge engineering, network & security</li>
+                </ul>
+            </section>
+            <section class="education-card card">
+                <div>
+                    <h3 data-i18n="education.bachelor.title">Bachelor's program - economics</h3>
+                    <h4 data-i18n="education.bachelor.place">JKU Linz</h4>
+                    <p>10.2012 - 10.2016</p>
+                </div>
+                <ul>
+                    <li data-i18n="education.bachelor.feature1">Bachelor thesis supervisor: Univ.-Prof. Mag. Dr. Michael Landesmann</li>
+                    <li data-i18n="education.bachelor.feature2">Interests: applied economics, founding and development of companies, Russian</li>
+                </ul>
+            </section>
+            <section class="education-card card">
+                <div>
+                    <h3 data-i18n="education.abroad.title">Semester abroad - economics</h3>
+                    <h4 data-i18n="education.abroad.place">Higher school of economics, Nizhny Novgorod in Russia</h4>
+                    <p>09.2015 - 01.2016</p>
+                </div>
+                <ul>
+                    <li data-i18n="education.abroad.feature1">Interests: Russian culture, marketing, literature</li>
+                </ul>
+            </section>
+            <section class="education-card card">
+                <div>
+                    <h3 data-i18n="education.school.title">Business administration</h3>
+                    <h4 data-i18n="education.school.type">Trade academy Vöcklabruck</h4>
+                    <p>09.2017 - 07.2012</p>
+                </div>
+                <ul>
+                    <li data-i18n="education.school.feature1">International business branch: English, marketing</li>
+                </ul>
+            </section>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2 class="section-title" data-i18n="generic.certificate">Certificates</h2>
+        <div>
+            <section class="certificate-card card">
+                <div>
+                    <h3 data-i18n="certificates.jira.title">Jira & Confluence user certificate</h3>
+                    <h4 data-i18n="certificates.jira.issuance">Issued by Atlassian university</h4>
+                </div>
+            </section>
+            <section class="certificate-card card">
+                <div>
+                    <h3 data-i18n="certificates.sap.abap.abap2.title">SAP ABAP II</h3>
+                    <h4 data-i18n="certificates.sap.abap.abap2.issuance">Issued by e.g. university xy/company wz</h4>
+                </div>
+            </section>
+            <section class="certificate-card card">
+                <div>
+                    <h3 data-i18n="certificates.sap.cert.title">SAP certified application associate</h3>
+                    <h4 data-i18n="certificates.sap.cert.issuance">Issued by Atlassian university</h4>
+                </div>
+            </section>
+            <section class="certificate-card card">
+                <div>
+                    <h3 data-i18n="certificates.sap.terp10.title">SAP TERP10 on S/4HANA</h3>
+                    <h4 data-i18n="certificates.sap.terp10.issuance">Issued by e.g. university xy/company wz</h4>
+                </div>
+            </section>
+            <section class="certificate-card card">
+                <div>
+                    <h3 data-i18n="certificates.sap.abap.abap1.title">SAP ABAP I</h3>
+                    <h4 data-i18n="certificates.sap.abap.abap1.issuance">Issued by e.g. university xy/company wz</h4>
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+    <section id="tools">
+        <h2 class="section-title" data-i18n="generic.technology">Technology</h2>
+        <div>
+            <section class="tools-card card">
+                <div>
+                    <h3 data-i18n="technology.programming.title">Programming Languages</h3>
+                </div>
+                <div>
+                    <div class="lang_progress">
+                        <h4 data-i18n="technology.programming.java.title">Java</h4>
+                        <div class="meter">
+                            <span style="width: 70%" role="img" aria-label="Java progress bar 70 of 100"></span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li data-i18n="technology.programming.java.descr1">Spring framework</li>
+                        <li data-i18n="technology.programming.java.descr2">Android prototyping</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="lang_progress">
+                        <h4 data-i18n="technology.programming.javascript.title">JavaScript</h4>
+                        <div class="meter orange">
+                            <span style="width: 45%" role="img" aria-label="JavaScript progress bar 45 of 100"></span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li data-i18n="technology.programming.javascript.descr1">VueJs, Vuetify</li>
+                        <li data-i18n="technology.programming.javascript.descr2">JQuery, NodeJS</li>
+                        <li data-i18n="technology.programming.javascript.descr3">HTML, CSS</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="lang_progress">
+                        <h4 data-i18n="technology.programming.php.title">PHP</h4>
+                        <div class="meter orange">
+                            <span style="width: 25%" role="img" aria-label="PHP progress bar 25 of 100"></span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li data-i18n="technology.programming.php.descr1">Headless Drupal CMS</li>
+                    </ul>
+                </div>
+                <div>
+                    <div class="lang_progress">
+                        <h4 data-i18n="technology.programming.abap.title">ABAP</h4>
+                        <div class="meter orange">
+                            <span style="width: 25%" role="img" aria-label="ABAP progress bar 25 of 100"></span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li data-i18n="technology.programming.abap.descr1">Financial Report</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="tools-card card">
+                <h3 data-i18n="technology.tools.title">Tools frequently used</h3>
+                <ul>
+                    <li data-i18n="technology.tools.tool1">Google, KeepNote</li>
+                    <li data-i18n="technology.tools.tool2">Linux, Windows</li>
+                    <li data-i18n="technology.tools.tool3">Git, Github</li>
+                    <li data-i18n="technology.tools.tool4">Maven</li>
+                    <li data-i18n="technology.tools.tool5">Eclipse, VSCode</li>
+                    <li data-i18n="technology.tools.tool6">XAMPP</li>
+                </ul>
+            </section>
+            <section class="tools-card card">
+                <div>
+                    <h3 data-i18n="technology.udemy.title">Udemy courses</h3>
+                    <ul>
+                        <li><a href="https://www.udemy.com/course/restful-web-service-with-spring-boot-jpa-and-mysql/"
+                            data-i18n="technology.udemy.course1">RESTful
+                                web services with Spring</a></li>
+                        <li><a href="https://www.udemy.com/course/php-mvc-from-scratch/"
+                            data-i18n="technology.udemy.course2">PHP MVC framework</a></li>
+                        <li><a href="https://www.udemy.com/course/php-mvc-from-scratch/"
+                            data-i18n="technology.udemy.course3">PHP registration and login
+                                system</a></li>
+                        <li><a href="https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/"
+                            data-i18n="technology.udemy.course4">Docker and
+                                Kubernetes: The Complete Guide</a></li>
+                    </ul>
+            </section>
+        </div>
+    </section>
+
+    <section id="books">
+        <h2 class="section-title" data-i18n="generic.favItBooks">Favourite IT-related books</h2>
+        <div>
+            <section class="certificate-card card">
+                <div>
+                    <h3 data-i18n="favItBooks.phoenix.title">The phoenix project</h3>
+                    <h4 data-i18n="favItBooks.phoenix.authors">Gene Kim, Kevin Behr, George Spafford</h4>
+                </div>
+                <ul class="key-takeaways">
+                    <li data-i18n="favItBooks.phoenix.descr1"></li>
+                    <li data-i18n="favItBooks.phoenix.descr2"></li>
+                    <li data-i18n="favItBooks.phoenix.descr3"></li>
+                </ul>
+            </section>
+            <section class="certificate-card card">
+                <div>
+                    <h3 data-i18n="favItBooks.cleanCode.title">Clean code</h3>
+                    <h4 data-i18n="favItBooks.cleanCode.authors">Robert Martin</h4>
+                </div>
+                <ul class="key-takeaways">
+                    <li data-i18n="favItBooks.cleanCode.descr1"></li>
+                    <li data-i18n="favItBooks.cleanCode.descr2"></li>
+                    <li data-i18n="favItBooks.cleanCode.descr3"></li>
+                </ul>
+            </section>
+        </div>
+    </section>
+
+    <section id="hobby">
+        <h2 class="section-title" data-i18n="generic.hobbies">Hobbies</h2>
+            <ul>
+                <li data-i18n="hobby.football">Football</li>
+                <li data-i18n="hobby.chess">Chess <i>(since Covid-19)</i></li>
+                <li data-i18n="hobby.reading">Reading</li>
+                <li data-i18n="hobby.socializing">Socializing</li>
+            </ul>
+    </section>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
