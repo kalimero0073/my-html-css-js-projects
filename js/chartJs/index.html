@@ -8,9 +8,12 @@
     <!-- followed instructions on https://www.chartjs.org/docs/latest/ -->
 </head>
 <body>
-    <canvas id="myChart" width="300" height="300"></canvas>
+    <!-- https://www.chartjs.org/docs/latest/configuration/responsive.html -->
+    <div class="chart-container" style="position: relative; height:40vh; width:90vw">
+        <canvas id="myChart"></canvas>
+    </div>
 
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.3.0/dist/chart.min.js"></script>
     
